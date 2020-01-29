@@ -1,4 +1,0 @@
-# Global settings applied to the whole site.
-[build]
-  command = "hugo"
-  publish = "public"
