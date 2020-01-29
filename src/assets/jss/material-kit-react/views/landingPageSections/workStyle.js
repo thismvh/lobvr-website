@@ -1,4 +1,5 @@
 import { title } from "assets/jss/material-kit-react.js";
+import modalStyle from "assets/jss/material-kit-react/modalStyle.js";
 
 const workStyle = {
   section: {
@@ -31,7 +32,8 @@ const workStyle = {
   sendMessageContainer: {
     marginRight: 0,
     marginLeft: 0
-  }
+  },
+  ...modalStyle
 };
 
 export default workStyle;
