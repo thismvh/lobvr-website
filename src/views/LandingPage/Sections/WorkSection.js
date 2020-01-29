@@ -53,7 +53,7 @@ export default function WorkSection() {
 
         const { name, email, company, howknow, message } = state
 
-        const emailSent = await axios.post("api/sendMail", {
+        const emailSent = await axios.post("https://lobvr-backend.herokuapp.com/api/sendMail", {
             name,
             email,
             company,
