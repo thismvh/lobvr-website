@@ -41,6 +41,8 @@ const headerStyle = {
   },
   container: {
     ...container,
+    paddingLeft: 0,
+    paddingRight: 0,
     minHeight: "50px",
     flex: "1",
     alignItems: "center",

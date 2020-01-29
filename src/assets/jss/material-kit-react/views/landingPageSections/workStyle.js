@@ -2,7 +2,12 @@ import { title } from "assets/jss/material-kit-react.js";
 
 const workStyle = {
   section: {
-    padding: "70px 0"
+    padding: "70px 45px",
+    paddingTop: "0",
+    "@media (max-width: 575px)": {
+      paddingLeft: 0,
+      paddingRight: 0,
+    }
   },
   title: {
     ...title,
@@ -22,6 +27,10 @@ const workStyle = {
   textArea: {
     marginRight: "15px",
     marginLeft: "15px"
+  },
+  sendMessageContainer: {
+    marginRight: 0,
+    marginLeft: 0
   }
 };
 

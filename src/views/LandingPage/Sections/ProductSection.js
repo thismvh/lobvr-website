@@ -2,10 +2,11 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+//svg-icons
+import VR from "components/SVGIcons/VR"
+import VRTherapy from "components/SVGIcons/VRTherapy"
+import Data from "components/SVGIcons/Data"
+
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -19,15 +20,14 @@ export default function ProductSection() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
-      <GridContainer justify="center">
+      <GridContainer justify="center" className={classes.marginBottom}>
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Let{"'"}s talk product</h2>
+          <h2 className={classes.title}>We make therapy exciting and accessible</h2>
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
+            Going to therapy is hard. We are fixing that using
+            the power of Virtual Reality. We provide therapists with the modern
+            tools they need to stand out from the crowd and shape the future of
+            psychotherapy.
           </h5>
         </GridItem>
       </GridContainer>
@@ -35,27 +35,27 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Chat}
+              title="Virtual Reality"
+              description="We leverage the immersiveness of VR to create a personalised, realistic and risk-free environment where clients can train to cope with their mental disorders."
+              icon={VR}
               iconColor="info"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={VerifiedUser}
+              title="Remote Therapy"
+              description="With VR, client and therapist can meet online. Therapy is not bound to the therapist's office anymore, it's accessible anytime, anywhere."
+              icon={VRTherapy}
               iconColor="success"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Fingerprint}
+              title="Data-Driven Therapy"
+              description="We equip therapists with biometric client data that will help them track their clients' progress and make more robust diagnoses."
+              icon={Data}
               iconColor="danger"
               vertical
             />

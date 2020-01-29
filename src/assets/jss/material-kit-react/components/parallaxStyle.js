@@ -10,7 +10,14 @@ const parallaxStyle = {
     padding: "0",
     border: "0",
     display: "flex",
-    alignItems: "center"
+    alignItems: "center",
+
+    "@media (min-width: 426px) and (max-width: 1024px)": {
+      height: "105vh"
+    },
+    "@media (max-width: 425px)": {
+      height: "110vh"
+    }
   },
   filter: {
     "&:before": {
