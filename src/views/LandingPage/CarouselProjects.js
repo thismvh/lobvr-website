@@ -31,7 +31,7 @@ export default function CarouselProjects(props) {
                         <Carousel {...settings}>
                             {
                                 props.imgs.map(({ img, caption, icon }) => 
-                                    <div>
+                                    <div key={Math.random().toString(36).slice(-5)}>
                                         <img src={img} alt={caption} className={classes.carouselImg} />
                                         <div className="slick-caption">
                                             <h4>
