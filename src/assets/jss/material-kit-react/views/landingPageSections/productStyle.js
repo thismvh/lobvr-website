@@ -19,9 +19,12 @@ const productStyle = {
   description: {
     color: "#999"
   },
-  marginBottom: {
-    marginBottom: "25px"
-  }
+  iconsArea: {
+    justifyContent: "center",
+    "& .extraPadding": {
+      padding: "1.5rem 2rem",
+    },
+  },
 };
 
 export default productStyle;

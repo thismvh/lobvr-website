@@ -26,7 +26,7 @@ export default function CarouselProjects(props) {
     return (
         <div className={classes.container}>
             <GridContainer>
-                <GridItem xs={12} sm={12} md={8} className={classes.marginAuto + " " + classes.matchPadding}>
+                <GridItem xs={12} sm={12} md={9} className={classes.marginAuto + " " + classes.matchPadding}>
                     <Card carousel>
                         <Carousel {...settings}>
                             {

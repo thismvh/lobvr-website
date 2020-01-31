@@ -25,164 +25,164 @@ import timon from "assets/img/faces/timon.jpg";
 const useStyles = makeStyles(styles);
 
 export default function TeamSection() {
-  const classes = useStyles();
-  const imageClasses = classNames(
-    classes.imgRaised,
-    classes.imgRoundedCircle,
-    classes.imgFluid
-  );
-  return (
-    <div className={classes.section}>
-      <h2 className={classes.title}>Meet our team</h2>
-      <div>
-        <GridContainer justify="center">
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={sumin} alt="..." className={imageClasses} />
-              </GridItem>
-              <h4 className={classes.cardTitle}>
-                Sumin Kim
-                <br />
-                <small className={classes.smallTitle}></small>
-              </h4>
-              <CardBody className={classes.noYPadding}>
-                <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={imke} alt="..." className={imageClasses} />
-              </GridItem>
-              <h4 className={classes.cardTitle}>
-                Imke Mayer
-                <br />
-                <small className={classes.smallTitle}></small>
-              </h4>
-              <CardBody className={classes.noYPadding}>
-                <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={sascha} alt="..." className={imageClasses} />
-              </GridItem>
-              <h4 className={classes.cardTitle}>
-                Alexander Palatnik
-                <br />
-                <small className={classes.smallTitle}></small>
-              </h4>
-              <CardBody className={classes.noYPadding}>
-                <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={marc} alt="..." className={imageClasses} />
-              </GridItem>
-              <h4 className={classes.cardTitle}>
-                Marc Viladrich
-                <br />
-                <small className={classes.smallTitle}></small>
-              </h4>
-              <CardBody className={classes.noYPadding}>
-                <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={timon} alt="..." className={imageClasses} />
-              </GridItem>
-              <h4 className={classes.cardTitle}>
-                Timon Jäger
-                <br />
-                <small className={classes.smallTitle}></small>
-              </h4>
-              <CardBody className={classes.noYPadding}>
-                <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
-        </GridContainer>
-      </div>
-    </div>
-  );
+    const classes = useStyles();
+    const imageClasses = classNames(
+        classes.imgRaised,
+        classes.imgRoundedCircle,
+        classes.imgFluid
+    );
+    return (
+        <div className={classes.section}>
+            <h2 className={classes.title}>Meet our team</h2>
+            <div>
+                <GridContainer justify="center">
+                    <GridItem xs={12} sm={12} md={4}>
+                        <Card plain>
+                            <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                                <img src={sumin} alt="..." className={imageClasses} />
+                            </GridItem>
+                            <h4 className={classes.cardTitle}>
+                                Sumin Kim
+                            <br />
+                                <small className={classes.smallTitle}></small>
+                            </h4>
+                            <CardBody className={classes.noYPadding}>
+                                <p className={classes.description}>
+                                    Project Organisation
+                                </p>
+                                <p className={classes.description}>
+                                    VR Development
+                                </p>
+                            </CardBody>
+                            <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
+                                <Button
+                                    justIcon
+                                    color="transparent"
+                                    className={classes.margin5}
+                                >
+                                    <i className={classes.socials + " fab fa-linkedin"} />
+                                </Button>
+                            </CardFooter>
+                        </Card>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={4}>
+                        <Card plain>
+                            <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                                <img src={imke} alt="..." className={imageClasses} />
+                            </GridItem>
+                            <h4 className={classes.cardTitle}>
+                                Imke Mayer
+                            <br />
+                                <small className={classes.smallTitle}></small>
+                            </h4>
+                            <CardBody className={classes.noYPadding}>
+                                <p className={classes.description}>
+                                    Content Development
+                                </p>
+                                <p className={classes.description}>
+                                    Communication and Sales
+                                </p>
+                            </CardBody>
+                            <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
+                                <Button
+                                    justIcon
+                                    color="transparent"
+                                    className={classes.margin5}
+                                >
+                                    <i className={classes.socials + " fab fa-linkedin"} />
+                                </Button>
+                            </CardFooter>
+                        </Card>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={4}>
+                        <Card plain>
+                            <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                                <img src={sascha} alt="..." className={imageClasses} />
+                            </GridItem>
+                            <h4 className={classes.cardTitle}>
+                                Alexander Palatnik
+                            <br />
+                                <small className={classes.smallTitle}></small>
+                            </h4>
+                            <CardBody className={classes.noYPadding}>
+                                <p className={classes.description}>
+                                    Data Analysis
+                                </p>
+                                <p className={classes.description}>
+                                    Backend Development
+                                </p>
+                            </CardBody>
+                            <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
+                                <Button
+                                    justIcon
+                                    color="transparent"
+                                    className={classes.margin5}
+                                >
+                                    <i className={classes.socials + " fab fa-linkedin"} />
+                                </Button>
+                            </CardFooter>
+                        </Card>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={4}>
+                        <Card plain>
+                            <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                                <img src={marc} alt="..." className={imageClasses} />
+                            </GridItem>
+                            <h4 className={classes.cardTitle}>
+                                Marc Viladrich
+                            <br />
+                                <small className={classes.smallTitle}></small>
+                            </h4>
+                            <CardBody className={classes.noYPadding}>
+                                <p className={classes.description}>
+                                    UX Development
+                                </p>
+                                <p className={classes.description}>
+                                    Communication and Sales
+                                </p>
+                            </CardBody>
+                            <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
+                                <Button
+                                    justIcon
+                                    color="transparent"
+                                    className={classes.margin5}
+                                >
+                                    <i className={classes.socials + " fab fa-linkedin"} />
+                                </Button>
+                            </CardFooter>
+                        </Card>
+                    </GridItem>
+                    <GridItem xs={12} sm={12} md={4}>
+                        <Card plain>
+                            <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                                <img src={timon} alt="..." className={imageClasses} />
+                            </GridItem>
+                            <h4 className={classes.cardTitle}>
+                                Timon Jäger
+                            <br />
+                                <small className={classes.smallTitle}></small>
+                            </h4>
+                            <CardBody className={classes.noYPadding}>
+                                <p className={classes.description}>
+                                    Visual Design
+                                </p>
+                                <p className={classes.description}>
+                                    Environment Development
+                                </p>
+                            </CardBody>
+                            <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
+                                <Button
+                                    justIcon
+                                    color="transparent"
+                                    className={classes.margin5}
+                                >
+                                    <i className={classes.socials + " fab fa-linkedin"} />
+                                </Button>
+                            </CardFooter>
+                        </Card>
+                    </GridItem>
+                </GridContainer>
+            </div>
+        </div>
+    );
 }

@@ -57,11 +57,14 @@ export default function ProjectsSection(props) {
                                     tabContent: (
                                         <div>
                                             <p className={classes.description}>
-                                                Ongoing collaboration with the AMEOS-Klinikum Osnabrück to push for a new way of treating alcohol addiction.
-                                                Due to the strong presence of alcohol in everyday life, the relapse rate is very high. Therefore, the key to treatment and rehabilitation is often to learn and
-                                                simulate the coping mechanisms in as many situations as possible. However, due to lack of resources, it's often simply not an option to train these coping skills in real life. As a result, not only the treatment itself but screening of patients and intermediate
-                                                diagnoses are strongly text based, making it difficult  for therapists to access the behavioral data of their patients. This ultimately compromises the chances for an efficient treatment.
-                                                We present patients a story in which they are helping an alcoholic friend to reinsert themselves into society. They are first asked to clean up the friend's alcohol-riddled apartment and then to go to the supermarket, resisting the temptation of buying alcohol.
+                                                We work together with alcohol addiction experts to push for a new way 
+                                                of treating Alcohol Use Disorder (AUD).
+                                                We present patients a story in which they are helping an alcoholic 
+                                                friend to reinsert themselves into society. They are first asked to 
+                                                clean up the friend's alcohol-riddled apartment and then to go to the 
+                                                supermarket, resisting the temptation of buying alcohol.
+                                                By helping a friend, patients learn to control their addiction without
+                                                feeling judged themselves. 
                                             </p>
                                             <CarouselProjects
                                                 imgs={[
@@ -101,8 +104,11 @@ export default function ProjectsSection(props) {
                                     tabContent: (
                                         <div>
                                             <p className={classes.description}>
-                                                Ongoing collaboration with Lebens*Impulse Osnabrück to help treat eating disorders like anorexia or bulimia. With this project we tackle the biggest challenge eating disorder patients face: being exposed to food in a
-                                                social situation. We place patients in a social situation and train to cope with the feeling of being constantly judged about their food choices.
+                                                Together with eating disorder experts, we find new ways of treating disorders
+                                                like anorexia or bulimia. With this project, we tackle the biggest challenge 
+                                                eating disorder patients face: being exposed to food in a social situation. 
+                                                We place patients in a social situation and train to cope with the feeling of 
+                                                being constantly judged about their food choices.
                                             </p>
                                             <CarouselProjects
                                                 imgs={[

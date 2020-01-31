@@ -27,7 +27,7 @@ const navPillsStyle = theme => ({
       flexWrap: "wrap"
     },
     [theme.breakpoints.up("md")]: {
-      width: "66.67%",
+      width: "75%",
       margin: "0 auto"
     },
   },

@@ -26,7 +26,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 const useStyles = makeStyles(styles);
 
-export default function WorkSection() {
+export default function ContactUsSection() {
     const classes = useStyles();
     const [state, setState] = React.useState({
         name: "",
@@ -79,11 +79,11 @@ export default function WorkSection() {
         <div id="contact" className={classes.section}>
             <GridContainer justify="center">
                 <GridItem cs={12} sm={12} md={8}>
-                    <h2 className={classes.title}>Work with us</h2>
+                    <h2 className={classes.title}>Contact us</h2>
                     <h4 className={classes.description}>
-                        We are very happy to collaborate with you. Tell us who you are and
-                        we will get back to you as soon as possible.
-          </h4>
+                        Want to know more? Get in touch with us and
+                        we'll be happy to get back to you.
+                    </h4>
                     <form onSubmit={handleSubmit}>
                         <GridContainer>
                             <GridItem xs={12} sm={12} md={6}>

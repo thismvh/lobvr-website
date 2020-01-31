@@ -16,15 +16,16 @@ const profilePageStyle = {
     textAlign: "center",
   },
   description: {
-    textAlign: "justify !important",
+    textAlign: "center !important",
     color: "#999",
     margin: "0 auto",
     fontSize: "17px",
     marginTop: "40px",
     paddingLeft: "5px",
     paddingRight: "5px",
+    lineHeight: "1.85",
     "@media (min-width: 960px)": {
-        width: "66.67%"
+        width: "75%"
     }
   },
   name: {

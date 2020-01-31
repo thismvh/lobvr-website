@@ -11,6 +11,7 @@ import {
   boxShadow,
   drawerWidth
 } from "assets/jss/material-kit-react.js";
+import { Block } from "@material-ui/icons";
 
 const headerStyle = {
   appBar: {
@@ -123,6 +124,7 @@ const headerStyle = {
     padding: "0.625rem 0",
     marginBottom: "20px",
     color: "#555",
+    fill: "#555",
     backgroundColor: "#fff !important",
     boxShadow:
       "0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15)"
@@ -148,6 +150,15 @@ const headerStyle = {
     paddingRight: "0px",
     paddingLeft: "0",
     ...transition
+  },
+  logo: {
+    height: "40px",
+    width: "auto",
+    "& + span": {
+      display: "inline-block",
+      paddingTop: "20px",
+      paddingLeft: "5px"
+    }
   }
 };
 

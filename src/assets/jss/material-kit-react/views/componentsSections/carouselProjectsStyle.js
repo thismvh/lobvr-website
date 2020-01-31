@@ -15,7 +15,7 @@ const carouselStyle = {
     "& .slick-slide.slick-active.slick-current:before": {
       position: "absolute",
       content: "",
-      background: "black",
+      background: "linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2))",
       opacity: 0.5,
       top: 0,
       right: 0,
