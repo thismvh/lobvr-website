@@ -36,7 +36,7 @@ export default function TeamSection() {
             <h2 className={classes.title}>Meet our team</h2>
             <div>
                 <GridContainer justify="center">
-                    <GridItem xs={12} sm={12} md={4}>
+                    <GridItem xs={12} sm={12} md={6} lg={4}>
                         <Card plain>
                             <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                                 <img src={sumin} alt="..." className={imageClasses} />
@@ -65,7 +65,7 @@ export default function TeamSection() {
                             </CardFooter>
                         </Card>
                     </GridItem>
-                    <GridItem xs={12} sm={12} md={4}>
+                    <GridItem xs={12} sm={12} md={6} lg={4}>
                         <Card plain>
                             <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                                 <img src={imke} alt="..." className={imageClasses} />
@@ -94,7 +94,7 @@ export default function TeamSection() {
                             </CardFooter>
                         </Card>
                     </GridItem>
-                    <GridItem xs={12} sm={12} md={4}>
+                    <GridItem xs={12} sm={12} md={6} lg={4}>
                         <Card plain>
                             <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                                 <img src={sascha} alt="..." className={imageClasses} />
@@ -123,7 +123,7 @@ export default function TeamSection() {
                             </CardFooter>
                         </Card>
                     </GridItem>
-                    <GridItem xs={12} sm={12} md={4}>
+                    <GridItem xs={12} sm={12} md={6} lg={4}>
                         <Card plain>
                             <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                                 <img src={marc} alt="..." className={imageClasses} />
@@ -152,7 +152,7 @@ export default function TeamSection() {
                             </CardFooter>
                         </Card>
                     </GridItem>
-                    <GridItem xs={12} sm={12} md={4}>
+                    <GridItem xs={12} sm={12} md={6} lg={4}>
                         <Card plain>
                             <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                                 <img src={timon} alt="..." className={imageClasses} />
