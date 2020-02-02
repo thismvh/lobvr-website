@@ -1,7 +1,7 @@
 import { title } from "assets/jss/material-kit-react.js";
 import modalStyle from "assets/jss/material-kit-react/modalStyle.js";
 
-const workStyle = {
+const contactUsStyle = {
   section: {
     padding: "70px 45px",
     paddingTop: "0",
@@ -35,4 +35,4 @@ const workStyle = {
   ...modalStyle
 };
 
-export default workStyle;
+export default contactUsStyle;
