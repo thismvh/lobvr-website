@@ -12,7 +12,6 @@ const workStyle = {
   },
   title: {
     ...title,
-    marginBottom: "50px",
     marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none",
