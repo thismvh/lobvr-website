@@ -2,19 +2,14 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import axios from "axios";
+// import Roadmap from "components/SVGIcons/Roadmap.jsx"
+import Roadmap from "components/Roadmap/Roadmap.js"
 
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 
-import Slide from "@material-ui/core/Slide";
-
-import styles from "assets/jss/material-kit-react/views/landingPageSections/workStyle.js";
-
-const Transition = React.forwardRef(function Transition(props, ref) {
-    return <Slide direction="down" ref={ref} {...props} />;
-});
+import styles from "assets/jss/material-kit-react/views/landingPageSections/roadmapStyle.js";
 
 const useStyles = makeStyles(styles);
 
@@ -23,12 +18,64 @@ export default function RoadmapSection() {
     return (
         <div id="roadmap" className={classes.section}>
             <GridContainer justify="center">
-                <GridItem cs={12} sm={12} md={8}>
+                <GridItem xs={12}>
                     <h2 className={classes.title}>Roadmap</h2>
                     <h4 className={classes.description}>
-                        Follow us on our journey
+                        Our journey so far
                     </h4>
-
+                    <Roadmap 
+                        className = {classes.roadmapPath}
+                        milestones = {[
+                            {
+                                name: "Development Phase",
+                                date: "Q3 2019 - Q4 2019",
+                                details: [
+                                    "Develop contents and prototype"
+                                ],
+                            },
+                            {
+                                name: "Start at Seedhouse",
+                                date: "01/01/2020",
+                                details: [],
+                            },
+                            {
+                                name: "Prototype Pilot Tests",
+                                date: "Q3 2019 - Q4 2019",
+                                details: [
+                                    "Test addiction prototype with clinical experts and patients",
+                                    "Develop eating disorder prototype",
+                                    "EXIST application"
+                                ],
+                            },
+                            {
+                                name: "Company Founding",
+                                date: "Q3 2020",
+                                details: [],
+                            },
+                            {
+                                name: "Beta Version",
+                                date: "Q3 2020 - Q1 2021",
+                                details: [
+                                    "Publish first Beta",
+                                    "Improve on feedback"
+                                ],
+                            },
+                            {
+                                name: "Official Product Launch",
+                                date: "Q2 2021",
+                                details: [
+                                    "Launch application on SteamVR"
+                                ],
+                            },
+                            {
+                                name: "Analytics Platform Test",
+                                date: "Q2 2021 - Q3 2021",
+                                details: [
+                                    "Develop and test the Analytics Platform"
+                                ],
+                            },
+                        ]}
+                    />
 
                 </GridItem>
             </GridContainer>
