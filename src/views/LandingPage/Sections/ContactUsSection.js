@@ -53,7 +53,11 @@ export default function ContactUsSection() {
 
         const { name, email, company, howknow, message } = state
 
-        const emailSent = await axios.post("https://lobvr-backend.herokuapp.com/api/sendMail", {
+        const SERVER_URL = process.env.NODE_ENV === "production"
+            ? process.env.REACT_APP_SERVER_URL
+            : process.env.REACT_APP_SERVER_URL_DEV
+
+        const emailSent = await axios.post(`${SERVER_URL}/api/sendMail`, {
             name,
             email,
             company,
