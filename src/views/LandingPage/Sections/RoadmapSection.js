@@ -35,12 +35,12 @@ export default function RoadmapSection() {
                             },
                             {
                                 name: "Start at Seedhouse",
-                                date: "01/01/2020",
+                                date: "Q1 2020",
                                 details: [],
                             },
                             {
                                 name: "Prototype Pilot Tests",
-                                date: "Q3 2019 - Q4 2019",
+                                date: "Q1 2020 - Q2 2020",
                                 details: [
                                     "Test addiction prototype with clinical experts and patients",
                                     "Develop eating disorder prototype",
