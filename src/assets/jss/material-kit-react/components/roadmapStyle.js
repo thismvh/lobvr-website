@@ -93,7 +93,7 @@ const roadmapStyle = theme => ({
 
                 [theme.breakpoints.down("xs")]: {
                     top: "4px",
-                    left: "14.5px"
+                    left: "14px"
                 }
             },
 
@@ -135,7 +135,7 @@ const roadmapStyle = theme => ({
 
                 [theme.breakpoints.down("xs")]: {
                     top: "4px",
-                    left: "14.5px"
+                    left: "14px"
                 }
             },
 
