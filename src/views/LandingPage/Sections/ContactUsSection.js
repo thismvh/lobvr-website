@@ -49,6 +49,7 @@ export default function ContactUsSection() {
     };
 
     async function handleSubmit(event) {
+        console.log(process.env.REACT_APP_SERVER_URL)
         event.preventDefault()
 
         const { name, email, company, howknow, message } = state
