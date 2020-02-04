@@ -14,6 +14,8 @@ import Tooltip from "@material-ui/core/Tooltip";
 // @material-ui/icons
 import { Apps, CloudDownload, ContactMailRounded } from "@material-ui/icons";
 
+import Germany from "components/SVGIcons/Germany.jsx"
+
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
@@ -26,6 +28,23 @@ export default function HeaderLinks(props) {
     const classes = useStyles();
     return (
         <List className={classes.list}>
+            {/* Hide the German flag until we research an efficient solution of handling the translation of the whole website */}
+            {/* <ListItem className={classes.listItem}>
+                <Tooltip
+                    id="germany"
+                    title="Zur deutschen Seite"
+                    placement={window.innerWidth > 959 ? "top" : "left"}
+                    classes={{ tooltip: classes.tooltip }}
+                >
+                    <Button
+                        href="/de"
+                        color="transparent"
+                        className={classes.navLink + " " + classes.flag}
+                    >
+                        <Germany />
+                    </Button>
+                </Tooltip>
+            </ListItem> */}
             <ListItem className={classes.listItem}>
                 <Tooltip
                     id="email"
