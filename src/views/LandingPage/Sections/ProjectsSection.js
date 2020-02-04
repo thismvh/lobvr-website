@@ -13,6 +13,9 @@ import FastfoodIcon from '@material-ui/icons/Fastfood';
 // import custom icons
 import Addiction from "components/SVGIcons/Addiction.jsx"
 import Argument from "components/SVGIcons/Argument.jsx"
+import AddictionBeer from "components/SVGIcons/AddictionBeer.jsx"
+import EatingDisorder from "components/SVGIcons/EatingDisorder.jsx"
+
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -53,7 +56,7 @@ export default function ProjectsSection(props) {
                             tabs={[
                                 {
                                     tabButton: "Addiction",
-                                    tabIcon: Addiction,
+                                    tabIcon: AddictionBeer,
                                     tabContent: (
                                         <div>
                                             <p className={classes.description}>
@@ -100,7 +103,7 @@ export default function ProjectsSection(props) {
                                 },
                                 {
                                     tabButton: "Eating Disorders",
-                                    tabIcon: Argument,
+                                    tabIcon: EatingDisorder,
                                     tabContent: (
                                         <div>
                                             <p className={classes.description}>
