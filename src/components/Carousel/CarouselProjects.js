@@ -8,7 +8,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
-import styles from "assets/jss/material-kit-react/views/componentsSections/carouselProjectsStyle.js";
+import styles from "assets/jss/material-kit-react/components/carouselProjectsStyle.js";
 
 const useStyles = makeStyles(styles);
 

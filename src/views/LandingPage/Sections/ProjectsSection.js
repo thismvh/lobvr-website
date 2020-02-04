@@ -29,7 +29,7 @@ import edSocial from "assets/img/examples/eating-social.png"
 
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/projectsStyle.js";
-import CarouselProjects from "../CarouselProjects";
+import CarouselProjects from "components/Carousel/CarouselProjects.js";
 
 const useStyles = makeStyles(styles);
 

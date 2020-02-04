@@ -2,7 +2,7 @@ import { container, title } from "assets/jss/material-kit-react.js";
 
 import imagesStyle from "assets/jss/material-kit-react/imagesStyles.js";
 
-const profilePageStyle = {
+const projectsStyle = {
   container,
   section: {
     padding: "0 45px",
@@ -68,4 +68,4 @@ const profilePageStyle = {
   }
 };
 
-export default profilePageStyle;
+export default projectsStyle;
