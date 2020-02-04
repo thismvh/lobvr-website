@@ -14,7 +14,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 // @material-ui/icons
 import { Apps, CloudDownload, ContactMailRounded } from "@material-ui/icons";
 
-import Germany from "components/SVGIcons/Germany.jsx"
+// import Germany from "components/SVGIcons/Germany.jsx"
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
