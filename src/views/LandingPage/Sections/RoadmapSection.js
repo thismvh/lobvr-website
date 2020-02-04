@@ -74,6 +74,14 @@ export default function RoadmapSection() {
                                     "Develop and test the Analytics Platform"
                                 ],
                             },
+                            {
+                                name: "Local Business Plan Start",
+                                date: "Q4 2021",
+                                details: [
+                                    "Contract with local therapists and hospitals",
+                                    "Subcontract with hardware suppliers"
+                                ],
+                            },
                         ]}
                     />
 
