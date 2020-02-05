@@ -32,7 +32,14 @@ const contactUsStyle = {
     marginRight: 0,
     marginLeft: 0
   },
-  ...modalStyle
+  ...modalStyle,
+  mailLink: {
+    color: "inherit",
+    transition: "color 0.4s ease",
+    "$:hover": {
+      color: "#9C27B0"
+    }
+  }
 };
 
 export default contactUsStyle;

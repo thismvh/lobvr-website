@@ -89,6 +89,11 @@ export default function ContactUsSection() {
                         Want to know more? Get in touch with us and
                         we'll be happy to get back to you.
                     </h4>
+                    <h4 className={classes.description}>
+                        <a href="mailto:hello@lobvr.com" className={classes.mailLink}><strong>hello@lobvr.com</strong></a>
+                    </h4>
+                    <br />
+                    <h4 className={classes.description}>or fill out this form</h4>
                     <form onSubmit={handleSubmit}>
                         <GridContainer>
                             <GridItem xs={12} sm={12} md={6}>
