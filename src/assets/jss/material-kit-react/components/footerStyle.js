@@ -49,6 +49,9 @@ const footerStyle = {
     padding: "0px",
     width: "auto"
   },
+  inline: {
+    display: "inline"
+  },
   icon: {
     width: "18px",
     height: "18px",

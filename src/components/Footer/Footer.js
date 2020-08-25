@@ -35,7 +35,17 @@ export default function Footer(props) {
                     <HeaderLinks />
                 </div>
                 <div className={classes.right}>
-                    &copy; {1900 + new Date().getYear()} LobVR
+                    <List className={classes.list}>
+                        <ListItem className={classNames(classes.listItem, classes.inline)}>
+                            &copy; {1900 + new Date().getYear()} LobVR
+                        </ListItem>
+                        <ListItem className={classNames(classes.listItem, classes.inline)}>
+                            <a href="/impressum">Impressum</a>
+                        </ListItem>
+                        <ListItem className={classNames(classes.listItem, classes.inline)}>
+                            <a href="/datenschutz">Datenschutz</a>
+                        </ListItem>
+                    </List>
                 </div>
             </div>
         </footer>
