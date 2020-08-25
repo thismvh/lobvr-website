@@ -22,13 +22,13 @@ import GridItem from "components/Grid/GridItem.js";
 import NavPills from "components/NavPills/NavPills.js";
 
 import addictionTutorial from "assets/img/examples/addiction-tutorial.jpg";
-import addictionApartment from "assets/img/examples/addiction-apartment-scene.png";
-import addictionRelaxScene from "assets/img/examples/addiction-relax-scene.png";
-import addictionGroceries from "assets/img/examples/addiction-groceries-kiosk.png"
-import addictionAlcohol from "assets/img/examples/addiction-alcohol-kiosk.png"
+import addictionApartment from "assets/img/examples/addiction-apartment-scene.jpg";
+import addictionRelaxScene from "assets/img/examples/addiction-relax-scene.jpg";
+import addictionGroceries from "assets/img/examples/addiction-groceries-kiosk.jpg"
+import addictionAlcohol from "assets/img/examples/addiction-alcohol-kiosk.jpg"
 
-import edSandwich from "assets/img/examples/eating-sandwich.png"
-import edSocial from "assets/img/examples/eating-social.png"
+import edSandwich from "assets/img/examples/eating-sandwich.jpg"
+import edSocial from "assets/img/examples/eating-social.jpg"
 
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/projectsStyle.js";
