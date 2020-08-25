@@ -11,7 +11,6 @@ import {
   boxShadow,
   drawerWidth
 } from "assets/jss/material-kit-react.js";
-import { Block } from "@material-ui/icons";
 
 const headerStyle = {
   appBar: {

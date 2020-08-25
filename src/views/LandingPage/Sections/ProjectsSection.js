@@ -11,8 +11,6 @@ import ForumIcon from '@material-ui/icons/Forum';
 import FastfoodIcon from '@material-ui/icons/Fastfood';
 
 // import custom icons
-import Addiction from "components/SVGIcons/Addiction.jsx"
-import Argument from "components/SVGIcons/Argument.jsx"
 import AddictionBeer from "components/SVGIcons/AddictionBeer.jsx"
 import EatingDisorder from "components/SVGIcons/EatingDisorder.jsx"
 
