@@ -54,6 +54,12 @@ const landingPageStyle = {
         fontSize: "1rem"
       }
     }
+  },
+  partnerBanner: {
+    background: "#FFFFFF",
+    marginTop: "-3vw",
+    marginBottom: "100px",
+
   }
 };
 

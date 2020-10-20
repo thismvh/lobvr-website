@@ -3,6 +3,7 @@ import { title } from "assets/jss/material-kit-react.js";
 const productStyle = {
   section: {
     padding: "70px 45px",
+    paddingTop: "35px",
     textAlign: "center",
     "@media (max-width: 575px)": {
       paddingLeft: 0,
