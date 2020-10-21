@@ -1,3 +1,11 @@
 [[redirects]]
   from = "lobvr.com"
   to = "www.lobvr.com"
+
+[[redirects]]
+  from = "/impressum"
+  to = "www.lobvr.com/impressum"
+
+[[redirects]]
+  from = "/datenschutz"
+  to = "www.lobvr.com/datenschutz"
