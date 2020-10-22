@@ -3,11 +3,6 @@
   to = "www.lobvr.com"
 
 [[redirects]]
-  from = "/impressum"
-  to = "/impressum"
-  status = 304
-
-[[redirects]]
-  from = "/datenschutz"
-  to = "/datenschutz"
-  status = 304
+  from = "/*"
+  to = "/index.html"
+  status = 200
