@@ -23,6 +23,7 @@ import ProductSection from "./Sections/ProductSection.js";
 import ProjectsSection from "./Sections/ProjectsSection.js"
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/ContactUsSection.js";
+import AwardNominationsSection from "./Sections/AwardNominationsSection.js"
 
 const dashboardRoutes = [];
 
@@ -80,6 +81,9 @@ export default function LandingPage(props) {
                     <WorkSection />
                 </div>
             </main>
+            <div className={classNames(classes.main, classes.mainRaised, classes.awardBanner)}>
+                <AwardNominationsSection />
+            </div>
             <Footer />
         </div>
     );

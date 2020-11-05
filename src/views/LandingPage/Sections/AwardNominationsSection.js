@@ -10,25 +10,24 @@ import GridItem from "components/Grid/GridItem.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/supportedByStyle.js";
 
-import coppenrath from "assets/img/logos/abc-stiftung.svg";
-import seedhouse from "assets/img/logos/seedhouse.svg";
-import uni from "assets/img/logos/uni-osnabrueck.svg";
+import innovate from "assets/img/logos/innovate-dic-nominee.svg";
+import gma from "assets/img/logos/gma-logo.svg";
 
 const useStyles = makeStyles(styles);
 
-export default function SupportedBySection() {
+export default function AwardNominationsSection() {
     const classes = useStyles();
     return (
         <div>
-            <h4 className={classes.title}>Supported By</h4>
+            <h4 className={classes.title}>Award Nominations</h4>
             <div>
                 <GridContainer justify="center">
                     <GridItem xs={12} sm={6} md={4} lg={4}>
                         <div className={classes.logoContainer}>
-                            <a href="https://stiftungcoppenrath.de/">
+                            <a href="https://innovate-os.de/awards/">
                                 <img
-                                    src={coppenrath}
-                                    alt="Aloys und Brigitte Coppenrath Stiftung"
+                                    src={innovate}
+                                    alt="innovate! Digital Innovation Challenge Nominee"
                                     className={classes.logo}
                                     style={{ maxWidth: "200px" }}
                                 />
@@ -37,23 +36,12 @@ export default function SupportedBySection() {
                     </GridItem>
                     <GridItem xs={12} sm={6} md={4} lg={4}>
                         <div className={classes.logoContainer}>
-                            <a href="https://www.uni-osnabrueck.de/startseite/">
+                            <a href="https://www.germanmedicalaward.com/">
                                 <img
-                                    src={uni}
-                                    alt="University of Osnabrück"
+                                    src={gma}
+                                    alt="German Medical Award 2020 Nominee"
                                     className={classes.logo}
-                                    style={{ maxWidth: "175px" }}
-                                />
-                            </a>
-                        </div>
-                    </GridItem>
-                    <GridItem xs={12} sm={6} md={4} lg={4}>
-                        <div className={classes.logoContainer}>
-                            <a href="https://www.seedhouse.de/">
-                                <img
-                                    src={seedhouse}
-                                    alt="Seedhouse Digital Startup Accelerator"
-                                    className={classes.logo}
+                                    style={{ maxWidth: "200px" }}
                                 />
                             </a>
                         </div>

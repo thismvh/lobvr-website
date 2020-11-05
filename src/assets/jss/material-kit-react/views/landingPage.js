@@ -59,7 +59,10 @@ const landingPageStyle = {
     background: "#FFFFFF",
     marginTop: "-3vw",
     marginBottom: "100px",
-
+  },
+  awardBanner: {
+    background: "#FFFFFF",
+    marginTop: 0
   }
 };
 

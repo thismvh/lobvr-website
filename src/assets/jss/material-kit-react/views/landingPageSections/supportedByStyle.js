@@ -19,7 +19,11 @@ const teamStyle = {
     justifyContent: "center",
     alignItems: "center",
     height: "100%",
-    paddingBottom: "2rem"
+    paddingBottom: "2rem",
+
+    "@media (max-width: 768px)": {
+      paddingTop: "1rem"
+    }
   },
   logo: {
     maxHeight: "100px",
