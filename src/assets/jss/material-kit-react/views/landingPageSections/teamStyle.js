@@ -45,6 +45,12 @@ const teamStyle = {
     fontSize: "20px",
     color: "#999"
   },
+  linkedIn: {
+    transition: "color 0.4s ease",
+    "&:hover": {
+      color: "#0A66C2" // LinkedIn brand color
+    }
+  },
   margin5: {
     margin: "5px"
   },

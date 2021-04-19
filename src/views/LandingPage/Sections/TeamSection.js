@@ -60,7 +60,7 @@ export default function TeamSection() {
                                     color="transparent"
                                     className={classes.margin5}
                                 >
-                                    <i className={classes.socials + " fab fa-linkedin"} />
+                                    <a href="https://www.linkedin.com/in/suminkim94"><i className={classes.socials + " fab fa-linkedin " + classes.linkedIn} /></a>
                                 </Button>
                             </CardFooter>
                         </Card>
@@ -89,7 +89,7 @@ export default function TeamSection() {
                                     color="transparent"
                                     className={classes.margin5}
                                 >
-                                    <i className={classes.socials + " fab fa-linkedin"} />
+                                    <a href="https://www.linkedin.com/in/imke-mayer-1ab63b1bb"><i className={classes.socials + " fab fa-linkedin " + classes.linkedIn} /></a>
                                 </Button>
                             </CardFooter>
                         </Card>
@@ -118,7 +118,7 @@ export default function TeamSection() {
                                     color="transparent"
                                     className={classes.margin5}
                                 >
-                                    <i className={classes.socials + " fab fa-linkedin"} />
+                                    <a href="https://www.linkedin.com/in/alexander-palatnik-9788801ab"><i className={classes.socials + " fab fa-linkedin " + classes.linkedIn} /></a>
                                 </Button>
                             </CardFooter>
                         </Card>
@@ -147,7 +147,7 @@ export default function TeamSection() {
                                     color="transparent"
                                     className={classes.margin5}
                                 >
-                                    <i className={classes.socials + " fab fa-linkedin"} />
+                                    <a href="https://www.linkedin.com/in/marc-viladrich"><i className={classes.socials + " fab fa-linkedin " + classes.linkedIn} /></a>
                                 </Button>
                             </CardFooter>
                         </Card>
@@ -176,7 +176,7 @@ export default function TeamSection() {
                                     color="transparent"
                                     className={classes.margin5}
                                 >
-                                    <i className={classes.socials + " fab fa-linkedin"} />
+                                    <a href="https://www.linkedin.com/in/timon-j%C3%A4ger-4a9317206"><i className={classes.socials + " fab fa-linkedin " + classes.linkedIn} /></a>
                                 </Button>
                             </CardFooter>
                         </Card>
