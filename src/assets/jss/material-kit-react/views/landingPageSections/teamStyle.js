@@ -57,6 +57,39 @@ const teamStyle = {
   noYPadding: {
     paddingTop: 0,
     paddingBottom: 0
+  },
+  teamToggle: {
+    ...title,
+
+    "&.active+[class*='extendedTeam']": {
+        opacity: 1,
+        maxHeight: "100%"
+    },
+
+    "& > svg": {
+      height: 45,
+      width: 45,
+      marginTop: "-10px",
+      transition: "all ease-in-out 0.4s",
+      transitionDelay: "0.2s",
+
+      "&:hover": {
+        marginTop: 0
+      }
+    },
+
+    "&.active > svg:hover": {
+      marginTop: "20px",
+      transform: "rotate(180deg)",
+      transitionDelay: "0.2s",
+    }
+    
+  },
+  extendedTeam: {
+    opacity: 0,
+    maxHeight: 0,
+    overflow: "hidden",
+    transition: "all ease-in-out 0.6s"
   }
 };
 
