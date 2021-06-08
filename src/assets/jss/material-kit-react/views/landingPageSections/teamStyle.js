@@ -61,7 +61,7 @@ const teamStyle = {
   teamToggle: {
     ...title,
 
-    "&.active+[class*='extendedTeam']": {
+    "&.active+div": {
         opacity: 1,
         maxHeight: "100%"
     },
