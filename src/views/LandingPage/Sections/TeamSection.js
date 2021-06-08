@@ -193,9 +193,6 @@ export default function TeamSection() {
                 <GridContainer justify="center" className={classes.extendedTeam}>
                     <GridItem xs={12} sm={12} md={6} lg={4}>
                         <Card plain>
-                            <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                                <img src={sumin} alt="..." className={imageClasses} />
-                            </GridItem>
                             <h4 className={classes.cardTitle}>
                                 Tobias Probst
                             <br />
@@ -206,24 +203,12 @@ export default function TeamSection() {
                                     Marketing
                                 </p>
                             </CardBody>
-                            <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
-                                <Button
-                                    justIcon
-                                    color="transparent"
-                                    className={classes.margin5}
-                                >
-                                    <a href="https://www.linkedin.com/in/suminkim94"><i className={classes.socials + " fab fa-linkedin " + classes.linkedIn} /></a>
-                                </Button>
-                            </CardFooter>
                         </Card>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={6} lg={4}>
                         <Card plain>
-                            <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                                <img src={imke} alt="..." className={imageClasses} />
-                            </GridItem>
                             <h4 className={classes.cardTitle}>
-                                Ela
+                                Ela Köberle
                             <br />
                                 <small className={classes.smallTitle}></small>
                             </h4>
@@ -231,23 +216,14 @@ export default function TeamSection() {
                                 <p className={classes.description}>
                                     HR
                                 </p>
+                                <p className={classes.description}>
+                                    Social Media
+                                </p>
                             </CardBody>
-                            <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
-                                <Button
-                                    justIcon
-                                    color="transparent"
-                                    className={classes.margin5}
-                                >
-                                    <a href="https://www.linkedin.com/in/imke-mayer-1ab63b1bb"><i className={classes.socials + " fab fa-linkedin " + classes.linkedIn} /></a>
-                                </Button>
-                            </CardFooter>
                         </Card>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={6} lg={4}>
                         <Card plain>
-                            <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                                <img src={sascha} alt="..." className={imageClasses} />
-                            </GridItem>
                             <h4 className={classes.cardTitle}>
                                 Luisa Seckinger
                             <br />
@@ -258,22 +234,10 @@ export default function TeamSection() {
                                     VR Development
                                 </p>
                             </CardBody>
-                            <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
-                                <Button
-                                    justIcon
-                                    color="transparent"
-                                    className={classes.margin5}
-                                >
-                                    <a href="https://www.linkedin.com/in/alexander-palatnik-9788801ab"><i className={classes.socials + " fab fa-linkedin " + classes.linkedIn} /></a>
-                                </Button>
-                            </CardFooter>
                         </Card>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={6} lg={4}>
                         <Card plain>
-                            <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                                <img src={marc} alt="..." className={imageClasses} />
-                            </GridItem>
                             <h4 className={classes.cardTitle}>
                                 Meike Korsten
                             <br />
@@ -284,22 +248,10 @@ export default function TeamSection() {
                                     VR Development
                                 </p>
                             </CardBody>
-                            <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
-                                <Button
-                                    justIcon
-                                    color="transparent"
-                                    className={classes.margin5}
-                                >
-                                    <a href="https://www.linkedin.com/in/marc-viladrich"><i className={classes.socials + " fab fa-linkedin " + classes.linkedIn} /></a>
-                                </Button>
-                            </CardFooter>
                         </Card>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={6} lg={4}>
                         <Card plain>
-                            <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                                <img src={timon} alt="..." className={imageClasses} />
-                            </GridItem>
                             <h4 className={classes.cardTitle}>
                                 Imogen Hüsing
                             <br />
@@ -313,22 +265,10 @@ export default function TeamSection() {
                                     Environment Development
                                 </p>
                             </CardBody>
-                            <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
-                                <Button
-                                    justIcon
-                                    color="transparent"
-                                    className={classes.margin5}
-                                >
-                                    <a href="https://www.linkedin.com/in/timon-j%C3%A4ger-4a9317206"><i className={classes.socials + " fab fa-linkedin " + classes.linkedIn} /></a>
-                                </Button>
-                            </CardFooter>
                         </Card>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={6} lg={4}>
                         <Card plain>
-                            <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                                <img src={timon} alt="..." className={imageClasses} />
-                            </GridItem>
                             <h4 className={classes.cardTitle}>
                                 Lea Doppertin
                             <br />
@@ -342,15 +282,6 @@ export default function TeamSection() {
                                     Environment Development
                                 </p>
                             </CardBody>
-                            <CardFooter className={classes.justifyCenter + " " + classes.noYPadding}>
-                                <Button
-                                    justIcon
-                                    color="transparent"
-                                    className={classes.margin5}
-                                >
-                                    <a href="https://www.linkedin.com/in/timon-j%C3%A4ger-4a9317206"><i className={classes.socials + " fab fa-linkedin " + classes.linkedIn} /></a>
-                                </Button>
-                            </CardFooter>
                         </Card>
                     </GridItem>
                 </GridContainer>
