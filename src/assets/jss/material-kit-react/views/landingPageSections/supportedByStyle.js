@@ -29,6 +29,12 @@ const teamStyle = {
     maxHeight: "100px",
     minWidth: "100px",
     maxWidth: "250px"
+  },
+  logoSeparator: {
+    width: "90%",
+    height: "50px",
+    marginTop: "25px",
+    borderTop: "1px solid #cfcfcf"
   }
 };
 
