@@ -185,7 +185,7 @@ export default function TeamSection() {
                         </Card>
                     </GridItem>
                 </GridContainer>
-                <div className={classes.teamToggle}>
+                <div id="teamToggle" className={classes.teamToggle}>
                     <h3>See extended team</h3>
                     <Arrow />
                 </div>

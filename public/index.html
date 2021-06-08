@@ -45,11 +45,11 @@
     document.addEventListener('DOMContentLoaded', function () {
       function teamClick() {
         this.classList.toggle("active")
-        var toggleIcon = document.querySelector("[class*='teamToggle'] > svg");
+        var toggleIcon = document.querySelector("#teamToggle > svg");
         toggleIcon.blur()
       }
 
-      var teamToggle = document.querySelector("[class*='teamToggle']");
+      var teamToggle = document.querySelector("#teamToggle");
       teamToggle.addEventListener("click", teamClick, false);
     }, true);
   </script>
