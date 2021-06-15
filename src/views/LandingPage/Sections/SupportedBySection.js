@@ -36,7 +36,7 @@ export default function SupportedBySection() {
                                     src={exist}
                                     alt="EXIST Gründerstipendium"
                                     className={classes.logo}
-                                    style={{ maxWidth: "100px" }}
+                                    style={{ maxWidth: "85px" }}
                                 />
                             </a>
                         </div>
@@ -48,7 +48,7 @@ export default function SupportedBySection() {
                                     src={esf}
                                     alt="Europäischer Sozialfonds für Deutschland (ESF)"
                                     className={classes.logo}
-                                    style={{ maxWidth: "100px" }}
+                                    style={{ maxWidth: "85px" }}
                                 />
                             </a>
                         </div>
@@ -60,7 +60,7 @@ export default function SupportedBySection() {
                                     src={zusammen}
                                     alt="Zusammen Zukunft Gestalten"
                                     className={classes.logo}
-                                    style={{ maxWidth: "100px" }}
+                                    style={{ maxWidth: "85px" }}
                                 />
                             </a>
                         </div>
@@ -72,7 +72,7 @@ export default function SupportedBySection() {
                                     src={eu}
                                     alt="Europäische Union"
                                     className={classes.logo}
-                                    style={{ maxHeight: "100px" }}
+                                    style={{ maxHeight: "65px" }}
                                 />
                             </a>
                         </div>
@@ -84,7 +84,7 @@ export default function SupportedBySection() {
                                     src={bmwi}
                                     alt="Bundesministerium für Wirtschaft und Energie"
                                     className={classes.logo}
-                                    style={{ maxHeight: "100px" }}
+                                    style={{ maxHeight: "85px" }}
                                 />
                             </a>
                         </div>
@@ -97,7 +97,7 @@ export default function SupportedBySection() {
                                     src={coppenrath}
                                     alt="Aloys und Brigitte Coppenrath Stiftung"
                                     className={classes.logo}
-                                    style={{ maxWidth: "200px" }}
+                                    style={{ maxWidth: "175px" }}
                                 />
                             </a>
                         </div>
@@ -109,7 +109,7 @@ export default function SupportedBySection() {
                                     src={uni}
                                     alt="University of Osnabrück"
                                     className={classes.logo}
-                                    style={{ maxWidth: "175px" }}
+                                    style={{ maxWidth: "150px" }}
                                 />
                             </a>
                         </div>
@@ -121,6 +121,7 @@ export default function SupportedBySection() {
                                     src={seedhouse}
                                     alt="Seedhouse Digital Startup Accelerator"
                                     className={classes.logo}
+                                    style={{ maxHeight: "75px" }}
                                 />
                             </a>
                         </div>
@@ -132,6 +133,7 @@ export default function SupportedBySection() {
                                     src={fhi}
                                     alt="Female Health Incubator"
                                     className={classes.logo}
+                                    style={{ maxWidth: "125px" }}
                                 />
                             </a>
                         </div>

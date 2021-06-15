@@ -29,7 +29,7 @@ export default function AwardNominationsSection() {
                                     src={innovate}
                                     alt="innovate! Digital Innovation Challenge Nominee"
                                     className={classes.logo}
-                                    style={{ maxWidth: "200px" }}
+                                    style={{ maxHeight: "85px" }}
                                 />
                             </a>
                         </div>
@@ -41,7 +41,7 @@ export default function AwardNominationsSection() {
                                     src={gma}
                                     alt="German Medical Award 2020 Nominee"
                                     className={classes.logo}
-                                    style={{ maxWidth: "200px" }}
+                                    style={{ maxWidth: "150px" }}
                                 />
                             </a>
                         </div>
