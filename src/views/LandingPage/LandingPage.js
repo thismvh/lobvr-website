@@ -19,6 +19,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
 import SupportedBySection from "./Sections/SupportedBySection.js"
+import PressSection from "./Sections/PressSection.js"
 import ProductSection from "./Sections/ProductSection.js";
 import ProjectsSection from "./Sections/ProjectsSection.js"
 import TeamSection from "./Sections/TeamSection.js";
@@ -83,6 +84,9 @@ export default function LandingPage(props) {
             </main>
             <div className={classNames(classes.main, classes.mainRaised, classes.awardBanner)}>
                 <AwardNominationsSection />
+            </div>
+            <div className={classNames(classes.main, classes.mainRaised, classes.awardBanner)}>
+                <PressSection />
             </div>
             <Footer />
         </div>

@@ -35,6 +35,13 @@ const teamStyle = {
     height: "50px",
     marginTop: "25px",
     borderTop: "1px solid #cfcfcf"
+  },
+  existContainer: {
+    flexBasis: "20% !important",
+
+    "& img": {
+      minWidth: "50px",
+    }
   }
 };
 
